@@ -2,6 +2,12 @@ body{
     background-color:aliceblue;
 }
 
+
+#Fondo{
+ width: 40%;
+
+}
+
 #login{
   background-color: aqua;
   width: 40%;
