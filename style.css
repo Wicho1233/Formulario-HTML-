@@ -1,19 +1,98 @@
-body{
-    background-color:aliceblue;
+body {
+    background-color: rgb(155, 210, 222);
+}
+h1{
+    color: darkblue;
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-overflow: clip;
+    font-size: 400%;
+
+}
+#fondo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    background-color:darkblue;
+    border-top-left-radius:10px ;
+}
+
+#fondo img {
+    width: 100%;
+    margin: auto;
+}
+
+#login {
+    background-color: aliceblue;
+    width: 40%;
+    margin: auto;
+    margin-top: 5%;
+    min-height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    border-color: blue;
+
+}
+
+#login>div {
+    width: 49%;
+    margin: auto;
+
+}
+
+#fondo h2 {
+    color: aliceblue;
+    margin: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#box-formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10cqh;
+    border-color: darkblue;
+
+}
+
+#box-formulario img {
+    width: 40%;
+    margin: 0 auto;
+
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    width: 70%;
+    margin: auto;
+}
+
+form input {
+    margin-bottom: 10px;
+    height: 40px;
+    border-radius: 10cqh;
+    border-color:darkblue;
+}
+
+form input[type ="text"]{
+
+    padding-left: 10px;
 }
 
 
-#Fondo{
- width: 40%;
-
-}
-
-#login{
-  background-color: aqua;
-  width: 40%;
-  margin: auto;
-  margin-top: 5%;
-  min-height: 40vh;
-
-
+form input[type = "submit"]{
+   background-color:darkblue;
+   
+   color: aliceblue;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 500;
+   text-transform: uppercase;
 }
