@@ -1,23 +1,13 @@
 body {
     background-color: rgb(155, 210, 222);
 }
-h1{
-    color: darkblue;
-    margin-top: 100px;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    text-overflow: clip;
-    font-size: 400%;
-/*Fondo 1*/
-}
+
+
+
 #fondo {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-items: center;
-    text-align: center;
-    background-color:darkblue;
-    border-top-left-radius:10px ;
+    margin: auto;
+    padding: 0%;
 }
 
 #fondo img {
@@ -51,7 +41,7 @@ h1{
 
 }
 
-#box-formulario{
+#box-formulario {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,7 +60,7 @@ h1{
 form {
     display: flex;
     flex-direction: column;
-    background-color:white;
+    background-color: white;
     width: 70%;
     margin: auto;
 }
@@ -79,34 +69,70 @@ form input {
     margin-bottom: 10px;
     height: 40px;
     border-radius: 10cqh;
-    border-color:darkblue;
+    border-color: darkblue;
 }
 
-form input[type ="text"]{
+form input[type="text"] {
     background: transparent;
-    
+
     padding-left: 10px;
 }
 
 
-form input[type = "submit"]{
-   background-color:darkblue;
-   border: none;
-   cursor:pointer;
-   border:2px solid transparent;
-   color: aliceblue;
-   font-family: 'Times New Roman', Times, serif;
-   font-weight: 500;
-   text-transform: uppercase;column-gap: 2rem;
-   transition: 
-      scale 0.25s ease-in,
-      opacity 0.25s ease-in,
-      filter 0.25s ease-in;
-    &:hover{
-      scale:1.2;
-    };
+form input[type="submit"] {
+    background-color: darkblue;
+    border: none;
+    cursor: pointer;
+    border: 2px solid transparent;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    column-gap: 2rem;
+    transition:
+        scale 0.25s ease-in,
+        opacity 0.25s ease-in,
+        filter 0.25s ease-in;
 
-   
-   
+    &:hover {
+        scale: 1.2;
+    }
 
+    ;
+}
+
+#sec1{
+
+border-width: 5px solid blue;
+border-left: 1px solid blue;
+
+}
+
+
+#menuhorizontal {
+    display: flex;
+    margin: 10p;
+    padding: 0;
+    list-style-type: none;
+}
+
+#menuhorizontal a {
+    display: flex;
+    width: 200px;
+    text-decoration: none;
+    text-align: center;
+    color:blue;
+    background-color: #f7f8e8;
+
+    border-right: 1px solid blue;
+    display: block;
+}
+
+#menuhorizontal li {
+    display: flex;
+    float: left;
+}
+
+#menuhorizontal a:hover {
+    background-color: #336699;
 }
